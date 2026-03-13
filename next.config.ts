@@ -2,10 +2,11 @@ import type { NextConfig } from "next";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', // Isso gera a pasta 'out' com o site estático
+  output: 'export',
+  basePath: '/portifolio',
   images: {
-    unoptimized: true, // Necessário para imagens funcionarem no GitHub Pages
+    unoptimized: true,
   },
-};
+}
 
 module.exports = nextConfig;
