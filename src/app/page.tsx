@@ -167,35 +167,35 @@ export default function Home() {
 
       <Section id="skills" title="Skills">
         <div className="grid gap-6 sm:grid-cols-2">
-          <SectionCard title="segurança" delay={0.1}>
+          <SectionCard title="development" delay={0.1}>
             <ul className="space-y-2 text-sm text-[var(--foreground)]/90">
               <li className="flex items-center gap-2">
-                <span className="text-[var(--terminal-green)]">→</span> Análise de vulnerabilidades
+                <span className="text-[var(--terminal-green)]">→</span> fullstack development
               </li>
               <li className="flex items-center gap-2">
-                <span className="text-[var(--terminal-green)]">→</span> Pentest & Red Team
+                <span className="text-[var(--terminal-green)]">→</span> mysql
               </li>
               <li className="flex items-center gap-2">
-                <span className="text-[var(--terminal-green)]">→</span> Segurança em desenvolvimento
+                <span className="text-[var(--terminal-green)]">→</span> ui/ux
               </li>
               <li className="flex items-center gap-2">
-                <span className="text-[var(--terminal-green)]">→</span> Gestão de riscos
+                <span className="text-[var(--terminal-green)]">→</span> pitch
               </li>
             </ul>
           </SectionCard>
           <SectionCard title="tecnologias" delay={0.2}>
             <ul className="space-y-2 text-sm text-[var(--foreground)]/90">
               <li className="flex items-center gap-2">
-                <span className="text-[var(--python-blue)]">→</span> Python, Bash, Scripting
+                <span className="text-[var(--terminal-green)]">→</span> Node.js
               </li>
               <li className="flex items-center gap-2">
-                <span className="text-[var(--python-blue)]">→</span> Docker, Linux, redes
+                <span className="text-[var(--terminal-green)]">→</span> React Native
               </li>
               <li className="flex items-center gap-2">
-                <span className="text-[var(--python-blue)]">→</span> Ferramentas de segurança (OWASP, etc.)
+                <span className="text-[var(--terminal-green)]">→</span> Typescript
               </li>
               <li className="flex items-center gap-2">
-                <span className="text-[var(--python-blue)]">→</span> APIs e cloud
+                <span className="text-[var(--terminal-green)]">→</span> Docência
               </li>
             </ul>
           </SectionCard>
